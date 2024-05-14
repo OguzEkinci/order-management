@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap");
+
+@layer base {
+  html {
+    font-family: "manrope", sans-serif;
+    @apply h-full;
+  }
+
+  html * {
+    font-family: "inter", sans-serif;
+  }
+
+  body {
+    @apply h-full dark:!bg-gray-800 !bg-gray-200 dark:text-white text-gray-200;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer root {
+  iframe#webpack-dev-server-client-overlay {
+    display: none !important
+  }
 }

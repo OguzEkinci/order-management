@@ -1,0 +1,66 @@
+{
+  "auth": {
+    "login": {
+      "title": "Hesabına giriş yap",
+      "email": "E-posta",
+      "password": "Şifre",
+      "signin": "Giriş yap"
+    }
+  },
+  "validationMessages": {
+    "email": "Geçerli bir e-posta adresi giriniz",
+    "required": "Bu alan zorunludur"
+  },
+  "labels": {
+    "status": "Durum",
+    "is-active": "Aktiflik Durumu"
+  },
+  "empty-text": {},
+  "notifications": {
+    "error": {
+      "title": "Hata",
+      "message": "Bir hata oluştu"
+    },
+    "success": {
+      "title": "Başarılı",
+      "message": "İşlem başarılı"
+    }
+  },
+  "status": {
+    "active": "Aktif",
+    "passive": "Pasif",
+    "verified": "Doğrulanmış",
+    "unverified": "Doğrulanmamış"
+  },
+  "navigationItems": {
+    "dashboard": "Ana Sayfa",
+    "dashboard-home": "Ana Sayfa",
+    "404": "Sayfa Bulunamadı",
+    "auth": "Giriş",
+    "order-management": "Sipariş Yönetimi"
+  },
+  "titles": {
+    "order-management": "Sipariş Yönetimi",
+    "not-found": "Sayfa Bulunamadı"
+  },
+  "descriptions": {
+    "order-management": "Gelen siparişlerin organizasyonunu buradan yapabilirsiniz. Bir sipariş sepeti oluşturabilir ve bu sepetlere kuryeler atayabilirsiniz. Ayrıca sepetlerin durumlarını takip edebileceğiniz bir tablo mevcuttur.",
+    "not-found": "Üzgünüz, aradığınız sayfayı bulamadık. Lütfen tekrar deneyin veya ana sayfaya dönün."
+  },
+  "actions": {
+    "edit": "Düzenle",
+    "cancel": "Vazgeç",
+    "save": "Kaydet",
+    "signout": "Çıkış Yap",
+    "selected": "Seçili",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "confirm-and-retry": "Onayla ve Tekrar Ekle",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "go-back-home": "Ana Sayfaya Dön",
+    "delete": "Sil",
+    "nothing-found": "Hiçbir şey bulunamadı..."
+  },
+  "placeholders": {}
+}
